@@ -9,5 +9,6 @@ import MacroLib
 let testMacros: [String: Macro.Type] = [
     "stringify": StringifyMacro.self,
     "url": URLMacro.self,
+    "color": ColorMacro.self,
 ]
 #endif

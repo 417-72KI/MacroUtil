@@ -6,5 +6,6 @@ struct MacroPlugin: CompilerPlugin {
     let providingMacros: [Macro.Type] = [
         StringifyMacro.self,
         URLMacro.self,
+        ColorMacro.self,
     ]
 }
