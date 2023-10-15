@@ -6,7 +6,7 @@ import CompilerPluginSupport
 
 let package = Package(
     name: "MacroUtils",
-    platforms: [.macOS(.v12), .iOS(.v15)],
+    platforms: [.macOS(.v13), .iOS(.v16), .watchOS(.v9), .tvOS(.v16)],
     products: [
         .library(
             name: "MacroUtils",
