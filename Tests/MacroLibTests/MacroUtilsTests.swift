@@ -7,6 +7,6 @@ import XCTest
 import MacroLib
 
 let testMacros: [String: Macro.Type] = [
-    :
+    "stringify": StringifyMacro.self,
 ]
 #endif
