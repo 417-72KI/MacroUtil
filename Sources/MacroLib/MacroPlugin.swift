@@ -7,5 +7,6 @@ struct MacroPlugin: CompilerPlugin {
         StringifyMacro.self,
         URLMacro.self,
         ColorMacro.self,
+        EnumConversionMacro.self
     ]
 }
